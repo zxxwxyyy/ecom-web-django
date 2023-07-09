@@ -1,0 +1,19 @@
+{% autoescape off %}
+
+Hi {{user.firstname}}, 
+
+Your Order has been recieved.
+
+Order Number: {{ order.order_number }}
+
+Products:
+{% for product in order_products %}
+  - Product Name: {{product.product.product_name}}
+  - Quantity: {{product.quantity}}
+  - Price: ${{product.product_price}}
+  - Color, Size: {{product.variations}}
+{% endfor %}
+
+Total Order Price: ${{ total_order_price }}
+
+{% endautoescape %}
