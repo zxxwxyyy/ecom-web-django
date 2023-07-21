@@ -20,10 +20,12 @@ from . import views
 from django.conf.urls.static import static
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _
+from social_django.urls import urlpatterns as social_urlpatterns
 
 
 
 urlpatterns = [
+    path('oauth/', include('social_django.urls', namespace='social')),
     path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
     path('secureAdmin/', admin.site.urls),
     path('', views.home, name='home'),
