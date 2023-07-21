@@ -1,6 +1,6 @@
 # E-Commerce-Website-Django
 
-This project is a comprehensive e-commerce website built with Django from [Udermy Course](https://www.udemy.com/course/django-ecommerce-project-based-course-python-django-web-development/learn/lecture/36526812?start=585#reviews)
+This project is a comprehensive e-commerce website built with Django from [Udermy Course](https://www.udemy.com/course/django-ecommerce-project-based-course-python-django-web-development/)
 
 ## Features
 
