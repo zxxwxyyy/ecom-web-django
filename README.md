@@ -4,14 +4,14 @@ This project is a comprehensive e-commerce website built with Django from [Uderm
 
 ## Features
 
-- User Registration and Authentication: Users can register for an account using their email address. A verification email is sent upon registration to ensure the validity of the email address.
-- User Profile Management: Users can manage their profile information, providing a personalized shopping experience.
-- Product Management: Admins can create, retrieve, update, and delete products. This includes managing product variations such as size and color.
-- Product Reviews and Ratings: Users can leave reviews and ratings for products, providing valuable feedback for both the seller and other customers.
-- Shopping Cart: Users can add products to a shopping cart, allowing them to manage their desired purchases.
-- Order Placement via PayPal: Users can place orders using PayPal, providing a secure and convenient payment method.
-- Product Search: Users can search for products, making it easy to find exactly what they're looking for.
-- Order Confirmation Email: Upon placing an order, users receive a confirmation email, providing them with a record of their purchase.
+- `User Registration and Authentication:` Users can register for an account using their email address. A verification email is sent upon registration to ensure the validity of the email address.
+- `User Profile Management:` Users can manage their profile information, providing a personalized shopping experience.
+- `Product Management:` Admins can create, retrieve, update, and delete products. This includes managing product variations such as size and color.
+- `Product Reviews and Ratings:` Users can leave reviews and ratings for products, providing valuable feedback for both the seller and other customers.
+- `Shopping Cart:` Users can add products to a shopping cart, allowing them to manage their desired purchases.
+- `Order Placement via PayPal:` Users can place orders using PayPal, providing a secure and convenient payment method.
+- `Product Search:` Users can search for products, making it easy to find exactly what they're looking for.
+- `Order Confirmation Email:` Upon placing an order, users receive a confirmation email, providing them with a record of their purchase.
 
 ## Models
 
